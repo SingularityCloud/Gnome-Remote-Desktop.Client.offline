@@ -4,8 +4,6 @@ bin=$name
 
 type=apt
 
-debug=true
-
 os="Ubuntu"
 os_version="24.10"
 
