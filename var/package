@@ -12,6 +12,7 @@ os_version="24.10"
 package=(
     "${name}_"
     "remmina-plugin-rdp"
+    "remmina-plugin-secret"
 )
 
 depends=(
