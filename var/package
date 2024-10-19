@@ -11,6 +11,7 @@ os_version="24.10"
 
 package=(
     "${name}_"
+    "remmina-plugin-rdp"
 )
 
 depends=(
@@ -18,5 +19,5 @@ depends=(
     "libsodium23"
     "libssh-4"
     "remmina-common"
-    
+    "libfreerdp-client3-3"
 )
