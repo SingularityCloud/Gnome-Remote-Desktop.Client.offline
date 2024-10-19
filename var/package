@@ -1,0 +1,22 @@
+repo="Gnome-Remote-Desktop.Client.offline"
+name="remmina"
+bin=$name
+
+type=apt
+
+debug=true
+
+os="Ubuntu"
+os_version="24.10"
+
+package=(
+    "${name}_"
+)
+
+depends=(
+    "libavahi-ui-gtk3-0"
+    "libsodium23"
+    "libssh-4"
+    "remmina-common"
+    
+)
